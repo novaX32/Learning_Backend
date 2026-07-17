@@ -1,0 +1,166 @@
+# ===========================
+# Core FastAPI
+# ===========================
+fastapi
+uvicorn[standard]
+starlette
+pydantic
+pydantic-settings
+
+# ===========================
+# Forms & File Uploads
+# ===========================
+python-multipart
+
+# ===========================
+# Templates
+# ===========================
+jinja2
+
+# ===========================
+# Authentication & Security
+# ===========================
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-dotenv
+
+# ===========================
+# Database
+# ===========================
+sqlalchemy
+sqlmodel
+alembic
+
+# PostgreSQL
+psycopg2-binary
+
+# MySQL
+pymysql
+
+# SQLite
+aiosqlite
+
+# ===========================
+# Async Database
+# ===========================
+asyncpg
+
+# ===========================
+# MongoDB
+# ===========================
+motor
+pymongo
+
+# ===========================
+# Redis
+# ===========================
+redis
+
+# ===========================
+# Background Tasks
+# ===========================
+celery
+
+# ===========================
+# HTTP Client
+# ===========================
+httpx
+requests
+
+# ===========================
+# Email
+# ===========================
+fastapi-mail
+
+# ===========================
+# Data Validation
+# ===========================
+email-validator
+
+# ===========================
+# Testing
+# ===========================
+pytest
+pytest-asyncio
+pytest-cov
+
+# ===========================
+# API Testing
+# ===========================
+respx
+
+# ===========================
+# Logging
+# ===========================
+loguru
+
+# ===========================
+# Serialization
+# ===========================
+orjson
+ujson
+
+# ===========================
+# Environment Variables
+# ===========================
+python-decouple
+
+# ===========================
+# Scheduler
+# ===========================
+apscheduler
+
+# ===========================
+# Rate Limiting
+# ===========================
+slowapi
+
+# ===========================
+# Caching
+# ===========================
+fastapi-cache2
+
+# ===========================
+# WebSockets
+# ===========================
+websockets
+
+# ===========================
+# Message Queue
+# ===========================
+aio-pika
+pika
+
+# ===========================
+# Docker / Deployment Helpers
+# ===========================
+gunicorn
+
+# ===========================
+# Development
+# ===========================
+ipython
+rich
+watchfiles
+
+# ===========================
+# Code Quality
+# ===========================
+black
+isort
+flake8
+mypy
+pre-commit
+
+# ===========================
+# Documentation
+# ===========================
+mkdocs
+mkdocs-material
+
+# ===========================
+# Utilities
+# ===========================
+python-dateutil
+tenacity
